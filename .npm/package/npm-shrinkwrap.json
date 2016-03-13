@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "raphael": {
+      "version": "2.1.4",
+      "dependencies": {
+        "eve": {
+          "version": "git://github.com/adobe-webplatform/eve.git#eef80ed8d188423c2272746fb8ae5cc8dad84cb1"
+        }
+      }
+    }
+  }
+}
