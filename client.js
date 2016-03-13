@@ -8,7 +8,7 @@ Template.JustGage.onRendered(function() {
         if (self.data.renderedGage == undefined)
             self.data.renderedGage = new JustGage(thisGage);
         else
-            self.data.renderedGage.refresh();
+            self.data.renderedGage.refresh(self.data.gage.value);
         console.log(self.data);
     })
 })

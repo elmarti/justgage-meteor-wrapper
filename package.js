@@ -1,6 +1,6 @@
 Package.describe({
   name: 'elmarti:just-gage',
-  version: '0.1.0',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
   summary: 'JustGage and Raphael packaged and Meteorized',
   // URL to the Git repository containing the source code for this package.
@@ -26,6 +26,6 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('elmarti:peerjs');
-  api.addFiles('justgage-tests.js');
+  api.addFiles('justGage-tests.js');
   api.export(["JustGage"], "client");
 });
