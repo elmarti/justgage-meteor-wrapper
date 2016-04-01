@@ -15,11 +15,12 @@ Package.onUse(function(api) {
   api.use('ecmascript');
 
   Npm.depends({
-    "raphael": "2.1.4",
-    "eve": "0.5.0"
+
+    "raphael": "2.1.4"
+
   });
   api.use(['templating'], 'client');
-  api.addFiles(['lib/justgage.js', 'lib/raphael.js','client.html', 'client.js'], 'client');
+  api.addFiles(['lib/justgage.js', 'lib/raphael.js', 'client.html', 'client.js'], 'client');
   api.export(['JustGage'], 'client');
 });
 
