@@ -1,6 +1,6 @@
 Package.describe({
   name: 'elmarti:just-gage',
-  version: '0.1.1',
+  version: '0.1.2',
   // Brief, one-line summary of the package.
   summary: 'JustGage and Raphael packaged and Meteorized',
   // URL to the Git repository containing the source code for this package.
