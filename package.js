@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.use('ecmascript');
 
   Npm.depends({
-
+    "eve": "0.5.0",
     "raphael": "2.1.4"
 
   });
