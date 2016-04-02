@@ -1,26 +1,14 @@
 # JustGage Packaged and meteorized
 
-The library can be invoked as normal using standard Javascript, or using {{> JustGage yourcustomhelper}}
+Meteor 1.3 has made it hard to use NPM libraries in this fashion, so the best way to use JustGage is the following: 
 
-Your custom helper should look like this: 
+run:
 
-    yourcustomhelper: function() {
-            return {
-                gage: {
-                    id: "gauge",
-                    class: "dave",
-                    value: 30,
-                    min: 0,
-                    max: 100,
-                    title: "Visitors",
-                    levelColorsGradient: false
-                },
-                size: {
-                    height: "400px",
-                    width: "400px"
-                }
-            };
-        }
-The you can use any gage parameters as per [the JustGage documentation](http://justgage.com/)
+        meteor npm install justgage
+        
+Add the following templates to your project: 
 
-NOTE THAT THIS PACKAGE INCLUDES RAPHAELJS ASWELL
+https://gist.github.com/elmarti/ae2a7c4de77da46d6080e8641323a11c
+
+https://gist.github.com/elmarti/e27131128e7f38020c233090d3c490bb
+

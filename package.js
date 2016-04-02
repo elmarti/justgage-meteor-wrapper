@@ -1,8 +1,8 @@
 Package.describe({
   name: 'elmarti:just-gage',
-  version: '0.1.2',
+  version: '0.1.4',
   // Brief, one-line summary of the package.
-  summary: 'JustGage and Raphael packaged and Meteorized',
+  summary: 'JustGage SEE README',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/elmarti/justgage-meteor-wrapper',
   // By default, Meteor will default to using README.md for documentation.
@@ -14,11 +14,6 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
 
-  Npm.depends({
-    "eve": "0.5.0",
-    "raphael": "2.1.4"
-
-  });
   api.use(['templating'], 'client');
   api.addFiles(['lib/justgage.js', 'lib/raphael.js', 'client.html', 'client.js'], 'client');
   api.export(['JustGage'], 'client');
